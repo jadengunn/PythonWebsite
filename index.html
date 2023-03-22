@@ -37,7 +37,7 @@
             <a class = "nav-item nav-link" id="home" href="/">Home</a>
             <a class = "nav-item nav-link" id="recall" href="/recall.html">Recall Prioritization</a>
             <a class = "nav-item nav-link" id="search" href="/search.html">Search</a>
-            <a class = "nav-item nav-link" id="search" href="/login.html">Logout</a>
+            <a class = "nav-item nav-link" id="logout" href="/login.html">Logout</a>
         </div>
       </div>
     </nav>
@@ -63,8 +63,5 @@
     crossorigin="anonymous"
   ></script>
 
-  <script>
-    type = "text/javascript"
-    src="{{ url_for('static', filename='index.js') }}"
-  </script>
+  <script src="{{ url_for('static', filename='index.js') }}"></script>
 </body>
